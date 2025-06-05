@@ -1,0 +1,282 @@
+body {
+    margin: 0;
+    background-color: white;
+    color: black;
+    font-size: 13px;
+}
+.vk-header {
+    background-color: #4A76A8;
+    padding: 0px 15px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    color: white;
+}
+.vk-body {
+    display: flex;
+    padding: 15px;
+    gap: 15px;
+}
+.vk-nav-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    border-color: #818C99;
+}
+.vk-nav-list li {
+    padding: 8px 12px;
+    display: flex;
+    align-items: center;
+    font-size: 13px;
+    color: #2A5885;
+    cursor: pointer;
+    border-bottom: 1px solid white;
+}
+.vk-nav-list li:last-child {
+    border-bottom: none;
+}
+.vk-nav-list li:hover {
+    background-color: white;
+}
+.vk-nav-list li svg {
+    width: 16px;
+    height: 16px;
+    margin-right: 10px;
+    fill: #818C99;
+}
+.vk-sidebar-promo {
+    margin-top: 15px;
+    background-color: white;
+    padding: 10px;
+}
+.vk-sidebar-promo img {
+    width: 100%;
+    height: auto;
+    border: 1px solid yellow;
+}
+.vk-sidebar-promo p {
+    font-size: 12px;
+    color: #2A5885;
+}
+.vk-sidebar-footer-link {
+    margin-top: 15px;
+    font-size: 12px;
+    color: #818C99;
+}
+.vk-sidebar-footer-link a {
+    color: #2A5885;
+    text-decoration: none;
+}
+.vk-sidebar-footer-link a:hover {
+    text-decoration: underline;
+}
+.vk-main-content {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.vk-content-row {
+    display: flex;
+    gap: 15px;
+}
+.vk-profile-card-main {
+    background-color: white;
+    padding: 15px;
+    text-align: center;
+    width: 200px;
+    flex-shrink: 0;
+    border-color: red;
+}
+.vk-profile-avatar-large {
+    width: 160px;
+    height: 160px;
+    margin-bottom: 15px;
+    border: 1px solid white;
+}
+.vk-edit-profile-button {
+    background-color: white;
+    color: #2A5885;
+    border: 1px solid white;
+    padding: 8px 15px;
+    font-size: 13px;
+    cursor: pointer;
+    width: 100%;
+}
+.vk-edit-profile-button:hover {
+    background-color: white;
+}
+
+.vk-user-info-card {
+    background-color:white;
+    padding: 15px;
+    flex-grow: 1;
+    border-color: chartreuse;
+}
+.vk-user-info-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 5px;
+}
+.vk-user-info-header h2 {
+    font-size: 18px;
+    font-weight: 500;
+    color: #2A5885;
+    margin: 0;
+}
+.vk-user-status {
+    font-size: 13px;
+    color: black;
+    margin-bottom: 15px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid white;
+}
+
+.vk-user-details-list p {
+    font-size: 13px;
+    margin: 8px 0;
+    display: flex;
+}
+.vk-user-details-list .detail-label {
+    color: #818C99;
+    width: 150px;
+    flex-shrink: 0;
+}
+.vk-user-details-list .information-left {
+    color: black;
+}
+.vk-user-details-list .detail-value a {
+    color: #2A5885;
+    text-decoration: none;
+}
+.vk-user-details-list .detail-value a:hover {
+    text-decoration: underline;
+}
+
+
+.vk-show-more-info-link {
+    display: block;
+    color: #2A5885;
+    font-size: 13px;
+    text-decoration: none;
+    margin-top: 10px;
+    padding-top: 10px;
+    border-top: 1px solid white;
+}
+.vk-show-more-info-link:hover {
+    text-decoration: underline;
+}
+.vk-user-stats {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 15px;
+    padding-top: 15px;
+    border-top: 1px solid white;
+}
+.vk-stat-0 {
+    text-align: center;
+}
+.vk-stat-0 .stat-1 {
+    font-size: 18px;
+    font-weight: 500;
+    color: #2A5885;
+}
+.vk-stat-0 .stat-2 {
+    font-size: 11px;
+    color: #818C99;
+}
+
+.vk-friends-card {
+    background-color: white;
+    padding: 15px;
+    width: 200px;
+    border-color: blueviolet;
+}
+.vk-friends-card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid white;
+}
+.vk-friends-card-header .title {
+    font-size: 13px;
+    font-weight: bold;
+    color: black;
+}
+.vk-friends-card-header .updates-link {
+    font-size: 12px;
+    color: #818C99;
+    text-decoration: none;
+}
+.vk-friends-card-header .updates-link:hover {
+    text-decoration: underline;
+}
+
+.vk-friends-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    margin-bottom: 10px;
+}
+.vk-friend-item {
+    text-align: center;
+}
+.vk-friend-item img {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 5px;
+}
+.vk-friend-item .friend-name {
+    font-size: 12px;
+    color: #2A5885;
+}
+
+.vk-friends-online-link {
+    display: block;
+    text-align: left;
+    font-size: 12px;
+    color: #2A5885;
+    text-decoration: none;
+    padding-top: 10px;
+    border-top: 1px solid white;
+}
+.vk-friends-online-link:hover {
+    text-decoration: underline;
+}
+
+.vk-photos-card {
+    background-color: white;
+    padding: 15px;
+    flex-grow: 1;
+    border-color: darkgoldenrod;
+}
+.vk-photos-card-header {
+    font-size: 13px;
+    font-weight: bold;
+    color: black;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid white;
+}
+.vk-photos-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+    gap: 5px;
+}
+.vk-photos-grid img {
+    width: 50%;
+    height: 75px;
+    object-fit: cover;
+}
+.vk-photos-grid . {
+    width: 75px;
+    height: 75px;
+}
+
+
+.icon-home path, .icon-news path, .icon-messages path, .icon-friends path, .icon-groups path, .icon-photos path, .icon-music path, .icon-video path, .icon-games path, .icon-products path, .icon-bookmarks path, .icon-documents path {
+    fill: #818C99;
+}
