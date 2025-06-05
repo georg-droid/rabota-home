@@ -5,9 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="152aaed8-16dc-4069-bddb-7cf8c86b798b" name="Changes" comment="add">
-      <change afterPath="$PROJECT_DIR$/Lesson 5/homerabota5.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/дуыыщт6/lesson6.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/дуыыщт6/lesson6.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JSLesson2/JSLesson2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JSLesson2/Lesson2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lesson Home 4/Lesson home 6.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,8 +18,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="CSS File" />
+        <option value="JavaScript File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -30,6 +32,12 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/georg-droid/rabota-home.git",
+    "accountId": "d3605229-9866-4c91-a1b4-280398905540"
+  }
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 3
 }</component>
@@ -41,27 +49,42 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;JavaScript Debug.dluyasebya.html.executor&quot;: &quot;Run&quot;,
-    &quot;JavaScript Debug.homework2.html.executor&quot;: &quot;Run&quot;,
-    &quot;JavaScript Debug.homework3.html.executor&quot;: &quot;Run&quot;,
-    &quot;JavaScript Debug.lesson6.html.executor&quot;: &quot;Run&quot;,
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Admin/Documents/GitHub/desktop-tutorial&quot;,
-    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "JavaScript Debug.JSLesson2.html.executor": "Run",
+    "JavaScript Debug.dluyasebya.html.executor": "Run",
+    "JavaScript Debug.homework2.html.executor": "Run",
+    "JavaScript Debug.homework3.html.executor": "Run",
+    "JavaScript Debug.lesson6.html.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "valery",
+    "last_opened_file_path": "C:/Users/Admin/Documents/GitHub/desktop-tutorial",
+    "list.type.of.created.stylesheet": "CSS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
+  <component name="RunManager" selected="JavaScript Debug.JSLesson2.html">
+    <configuration name="JSLesson2.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/desktop-tutorial/JSLesson2/JSLesson2.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="lesson6.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/desktop-tutorial/Lesson Home 6/lesson6.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.JSLesson2.html" />
+        <item itemvalue="JavaScript Debug.lesson6.html" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -83,6 +106,11 @@
       <workItem from="1746572255384" duration="2137000" />
       <workItem from="1747850668780" duration="10712000" />
       <workItem from="1747884770923" duration="975000" />
+      <workItem from="1747969133194" duration="86000" />
+      <workItem from="1747969221399" duration="94000" />
+      <workItem from="1748111156567" duration="28000" />
+      <workItem from="1748111186316" duration="1029000" />
+      <workItem from="1749139294649" duration="1254000" />
     </task>
     <task id="LOCAL-00001" summary="add">
       <option name="closed" value="true" />
